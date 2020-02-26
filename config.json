@@ -1,0 +1,21 @@
+{
+  "app_name": "iriswork",
+  "port": "8080",
+  "static_path": "/manage/static",
+  "data_base": {
+    "drive": "mysql",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "user": "root",
+    "pwd": "s61856163",
+    "database": "student"
+  },
+  "redis": {
+    "net_work": "tcp",
+    "addr": "127.0.0.1",
+    "port": "6379",
+    "passwword": "",
+    "prefix": "su_"
+  },
+  "mode": "dev"
+}
