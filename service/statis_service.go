@@ -1,11 +1,10 @@
 package service
 
 import (
+	"fmt"
 	"github.com/go-xorm/xorm"
 	"iriswork/model"
 	"time"
-	"math/rand"
-	"fmt"
 )
 
 /**
@@ -56,8 +55,8 @@ func (ss *statisService) GetAdminDailyCount(date string) int64 {
 	}
 
 	fmt.Println(result)
-	//return result
-	return int64(rand.Intn(100))
+	return result
+
 }
 
 /**
@@ -85,8 +84,8 @@ func (ss *statisService) GetOrderDailyCount(date string) int64 {
 	}
 
 	fmt.Println(result)
-	//return result
-	return int64(rand.Intn(100))
+	return result
+
 }
 
 /**
@@ -109,6 +108,6 @@ func (ss *statisService) GetUserDailyCount(date string) int64 {
 		return 0
 	}
 	fmt.Println(result)
-	//return result
-	return int64(rand.Intn(100))
+	return result
+
 }

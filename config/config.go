@@ -1,8 +1,8 @@
 package config
 
 import (
-	"os"
 	"encoding/json"
+	"os"
 )
 
 //服务端配置
@@ -51,6 +51,5 @@ func InitConfig() *AppConfig {
 		panic(err.Error())
 	}
 	//config = &AppConfig{}
-
 	return config
 }
