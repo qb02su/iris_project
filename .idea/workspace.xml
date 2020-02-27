@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d3068ad-5825-4ef5-8afb-4194731f8ca9" name="Default Changelist" comment="">
+    <list default="true" id="9d3068ad-5825-4ef5-8afb-4194731f8ca9" name="Default Changelist" comment="更新了数据显示错误">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/statis_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/statis_service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -83,6 +82,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新了数据显示错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了数据显示错误" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>https://goproxy.io,direct</proxy>
@@ -92,6 +95,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="47" key="#go_build_engine.go/0.0.1536.824@0.0.1536.824" timestamp="1582720071876" />
+    <state x="372" y="6" width="918" height="812" key="CommitChangelistDialog2" timestamp="1582788077469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="6" width="918" height="812" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582788077469" />
     <state width="1493" height="177" key="GridCell.Tab.0.bottom" timestamp="1582787009506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
